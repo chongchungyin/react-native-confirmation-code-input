@@ -61,7 +61,8 @@ export default class ConfirmationCodeInput extends Component {
         currentArr[i] = newDefaultValue.charAt(i);
       }
       this.setState({
-        codeArr: currentArr
+        codeArr: currentArr,
+        currentIndex: -1
       })
     }
   }
